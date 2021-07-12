@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .container >*{
+        margin: 0px 0px;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+ 
+    audio{
+        height:57px ;
+        width:600px ;
+       margin-bottom: 40px;
+        border-radius: 20px;
+        
+        
+        box-shadow: 0 0 20px 0 #000a;
+
+    }
+    .cont-1{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    h4{
+        font-size: 2.5vw;
+        margin: 5px;
+    }
+    .header{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 4rem;
+        font-family:  'Source Sans Pro', sans-serif;
+        margin: 20px 0px;
+        margin-bottom: 50px;
+        letter-spacing: 15px;
+        
+        
+    }
+</style>
+<body>
+   <div class="header">Play music</div>
+   
+   
+    <div class="container">
+    <div class="cont-1">
+    <h4>Saki_Saki_Full_song</h4>
+    <audio controls>
+      <source class="music_saki" src="Music_saki.mp3" type="audio/mpeg">
+    </audio>
+    </div>
+   <div class="cont-2">
+    <h4>Dhemme_Dhemme_TonyKakkar</h4>
+    <audio controls>
+      <source class="music_saki" src="musci_dheeme.mp3" type="audio/mpeg">
+    </audio>
+    </div>
+   <div class="cont-3">
+    <h4>DJ_Snake_Taki_Taki</h4>
+    <audio controls>
+      <source class="music_saki" src="music_taki.mp3" type="audio/mpeg">
+    </audio>
+</div>
+   <div class="cont-4">
+    <h4>Louis Fonci_Despacito </h4>
+    <audio controls>
+      <source class="music_saki" src="music_despacito.mp3" type="audio/mpeg">
+    </audio>
+</div>
+</div>
+</body>
+</html>
